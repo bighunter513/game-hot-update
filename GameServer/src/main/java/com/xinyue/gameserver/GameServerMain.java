@@ -11,8 +11,8 @@ public class GameServerMain {
 		System.out.println("进程Id：" + pid);
 		test();
 		try {
-			//这里等待15s，给启动热更新一点时间
-			Thread.sleep(15000);
+			//这里等待100s，给启动热更新一点时间
+			Thread.sleep(50000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

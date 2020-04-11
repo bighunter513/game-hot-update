@@ -15,7 +15,7 @@ public class GameServerAgent {
 		Class<?>[] allClass = inst.getAllLoadedClasses();
 		for (Class<?> c : allClass) {
 			if (c.getName().endsWith("TestHot")) {
-				String pathname = "config\\TestHot.class";
+				String pathname = "E:\\game-hot-update-master\\GameServer\\target\\classes\\com\\xinyue\\gameserver\\TestHot.class";
 				File file = new File(pathname);
 				try {
 					byte[] bytes = fileToBytes(file);

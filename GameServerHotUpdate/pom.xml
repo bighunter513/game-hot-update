@@ -7,6 +7,25 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>GameServerHotUpdate</artifactId>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.3.1</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<!-- 此处为程序主入口-->
+							<mainClass>com.xinyue.hotupdate.HotUpdateMain</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 	<dependencies>
 		<dependency>
 			<groupId>com.sun</groupId>

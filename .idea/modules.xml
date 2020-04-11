@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GameServer/GameServer.iml" filepath="$PROJECT_DIR$/GameServer/GameServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GameServerHotUpdate/GameServerHotUpdate.iml" filepath="$PROJECT_DIR$/GameServerHotUpdate/GameServerHotUpdate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoadAgent/LoadAgent.iml" filepath="$PROJECT_DIR$/LoadAgent/LoadAgent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/game-hot-update-demo.iml" filepath="$PROJECT_DIR$/game-hot-update-demo.iml" />
+    </modules>
+  </component>
+</project>
